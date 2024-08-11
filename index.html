@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1> Prakash</h1>
+        
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#Resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+                <div class="line4"></div>
+                <div class="line5"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="home-section">
+        <div class="intro">
+            <h2>Hello, I'm Prakashraj Kotapuri</h2>
+            <p>Web Developer | Designer | PowerBi Analyst</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2><u>About Me</u></h2>
+        <div class="about-content">
+            <div class="video-container">
+                <video autoplay muted loop id="background-video">
+                    <source src="ban.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="about-text">
+                <img src="37.jpg" alt="about-text">
+
+                <p><h1>Hello Kudos!</h1> <br><h1>This is PrakashRaj.</h1></br> <h2> Iam a web developer, Powerbi Analyst,enthuastic in python.</h2></p>
+                <p><h2>this portifolio can tell us my projects and works that can be update day by day.</h2></p>
+                <p><h3>Thank You all!</h3></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <img src="li22.jpg" alt="Project">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="pro1.png" alt="Project 1">
+                <div class="project-info">
+                    <h3>Online College Admission</h3>
+                    <p>Brief description of the project.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="pro2.png" alt="Project 2">
+                <div class="project-info">
+                    <h3>grocery website</h3>
+                    <p>Brief description of the project.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="pro3.png" alt="Project 3">
+                <div class="project-info">
+                    <h3>Calculator using Python</h3>
+                    <p>Brief description of the project.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+     <section class="resume-section">
+            <h2>My Resume</h2>
+            <p>You can view or download my resume by clicking the link below:</p>
+            <a href="resume144.pdf" target="_blank" class="resume-link">View My Resume</a>
+     </section>
+
+     
+
+    
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+    
+
+
+    <footer>
+        <div class="socials">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <!-- Add more social links as needed -->
+        </div>
+        <p>&copy; 2024 prakashraj. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
